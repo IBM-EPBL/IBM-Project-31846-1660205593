@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/imagepredition.css')}}">
+
+</head>
+<body>
+    <img id="image_bc" src="{{ url_for('static',filename='image/predict.jpg')}}">
+    <div class="topnav">
+        <a class="active" href="/" >Home</a>
+        <a href="/image">ANALYZE</a>
+	
+    </div>
+    <h1>Food classified as <span>{{x}}</span></h1>
+    <div class="content">
+        {{y}}
+    </div>
+</body>
+</html>

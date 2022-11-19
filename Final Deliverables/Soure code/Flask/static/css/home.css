@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    overflow-x: hidden;
+}
+img{
+    pointer-events:none;
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    z-index: -1;
+}
+.topnav{
+    overflow:hidden;
+    background-color:rgba(51, 51, 51, 0.726);
+    position:relative;
+}
+
+.topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 16.5px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+}
+
+.topnav a.active {
+    background-color: #131212;
+    color:rgb(255, 255, 255);
+}
+.topnav h1 {
+    font-size:1.5em;
+    margin-left:30%;
+    color:#f5f8f8;
+    margin-top:10px;
+}
+.content{
+    width:800px;
+    padding: 10px;
+    font-size:1.6em;
+    color:#dfc90a69;
+}
+
+#div_cont{
+    font-size: 16em;
+    margin-top:3%;
+    margin-left:1%;
+    display: inline-block;
+    overflow:hidden;
+    position:absolute;
+    width:100%
+}
+.app-text{
+    font-size:1.5em;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: none;
+}
+
+
+button{
+    font-size:3em;
+    background:#00080f;
+    color: rgba(255, 255, 255, 0.507);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3em;
+    cursor: pointer;
+}
